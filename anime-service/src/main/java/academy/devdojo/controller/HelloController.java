@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 
 
- @GetMapping("hi")
+  @GetMapping("hi")
   public String hi() {
     return "OMAE WA MOU SHINDE IRU";
   }
